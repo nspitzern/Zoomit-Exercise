@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    background-image: url("https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg");
+    color: yellow;
+    text-align: center;
+    font-family: 'Star Jedi', Arial, Helvetica, serif;
+}
+
+
+/* Title Section */
+h1 {
+    font-size: 5rem;
+}
+
+/* List items Section */
+li {
+    font-size: x-large;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.films-list {
+    margin: 0 30%;
+    text-align: left;
+}
+
+.list-item {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 75%;
+}
+
+.list-button {
+    background-color: transparent;
+    border-color: transparent;
+    color: yellow;
+    text-align: center;
+    font-family: 'Star Jedi', Arial, Helvetica, serif;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.item-index {
+    display: none;
+}
+
+/* Star Section */
+.star {
+    background-color: transparent;
+    display: inline-block;
+    border-color: transparent;
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,23 @@
+<%- include('header') -%>
+    <h1>Favorite Films</h1>
+    <div class="films-list">
+        <ul>
+            <% for(var i = 0; i < list.length; i++) { %>
+                <div class="list-item">
+                    <form action="/" method="post">
+                        <li>
+                            <button class="list-button" type="submit" name="listItem" value=<%= list[i].title %>><%= list[i].title %></button>
+                        </li>
+                        <% if(list[i].isFavorite) {%>
+                            <span class="fa fa-star star"></span>
+                        <% } %>
+                        <input class="item-index" type="number" name="index" value=<%= i %>>
+                    </form>
+                    <br>
+                </div>
+            <% }; %>
+        </ul>
+        
+    </div>
+
+<%- include('footer') -%>
