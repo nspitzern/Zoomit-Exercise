@@ -21,9 +21,8 @@ npm i
 
 ## How it works
 After installing all dependencies from the root folder run ```
-node app.js``` in order to run the server
-(The server listens to port 3000).<br/>
-In order to run the Database server run the command ``` mongod ``` in a different terminal.
+node app.js``` 
+in order to run the server (The server listens to port 3000).
 
 The page will be open in [localHost](http://localhost:3000)
 
