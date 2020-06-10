@@ -60,7 +60,8 @@ app.get("/", function(req, res) {
                         break;
                     }
                 }
-
+                
+                // Check if the film wasn't in the favorite list. If not - add it.
                 if(!existsInFavList) {
                     filmsList.push({title: film.title, isFavorite: true});
                 }
