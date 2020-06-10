@@ -21,11 +21,12 @@ npm i
 
 ## How it works
 After installing all dependencies from the root folder run ```
-node app.js``` 
-in order to run the server (The server listens to port 3000).
+node app.js``` in order to run the server
+(The server listens to port 3000).<br/>
+In order to run the Database server run the command ``` mongod ``` in a different terminal.
 
 The page will be open in [localHost](http://localhost:3000)
 
-When making a *GET* request to the page, we retrive the films names from the *SWAPI* (using XMLHttpRequest).
+When making a *GET* request to the page, we retrive the films names from the *SWAPI* (using XMLHttpRequest).<br />
 When clicking a film name from the list we can toggle between *favorite* and *not favorite* for each film.
 A star next to the film name indicates if it is a favorite film or not.
