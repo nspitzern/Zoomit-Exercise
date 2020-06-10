@@ -19,7 +19,6 @@ mongoose.connect("mongodb://localhost:27017/filmsDB", {useNewUrlParser: true, us
 // create DB schema
 const filmsSchema = {
     title: String
-    // isFavorite: Boolean
 };
 
 // Create film model

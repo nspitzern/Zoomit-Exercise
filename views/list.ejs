@@ -7,9 +7,10 @@
                     <form action="/" method="post">
                         <li>
                             <textarea class="item-value" name="listItem"><%= list[i].title %></textarea>
-                            <button class="list-button" type="submit"><%= list[i].title %></button>
+                            <button class="list-button word-wrap" type="submit"><%= list[i].title %></button>
                         </li>
                         <% if(list[i].isFavorite) {%>
+                            <!-- If it is a favorite movie - add a star to its name -->
                             <span class="fa fa-star star"></span>
                         <% } %>
                     </form>

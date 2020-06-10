@@ -6,6 +6,10 @@ body{
     font-family: 'Star Jedi', Arial, Helvetica, serif;
 }
 
+.word-wrap {
+    max-width: 35rem;
+}
+
 
 /* Title Section */
 h1 {
@@ -20,7 +24,7 @@ li {
 }
 
 .films-list {
-    margin: 0 30%;
+    margin: 0 20%;
     text-align: left;
 }
 
@@ -29,6 +33,7 @@ li {
     margin-bottom: 1rem;
     position: relative;
     width: 75%;
+    word-wrap: break-word;
 }
 
 .list-button {
