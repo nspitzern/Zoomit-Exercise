@@ -46,6 +46,16 @@ li {
     cursor: pointer;
 }
 
+.list-button:hover {
+    animation-name: in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes in {
+    to {font-size: xx-large;}
+}
+
 .item-value {
     display: none;
 }

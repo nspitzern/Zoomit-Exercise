@@ -2,6 +2,7 @@
 Home assignment for Zoomit
 
 ## Dependencies
+**The running computer must have *NodeJS* and *MongoDB*!**
 The exercise was written in JavaScript and NodeJS, using the next Modoules:
 - Express
 - Body-Parser
